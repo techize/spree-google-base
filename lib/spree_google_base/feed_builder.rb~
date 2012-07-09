@@ -67,7 +67,7 @@ module SpreeGoogleBase
     end
     
     def cleanup_xml
-      #File.delete(path)
+      File.delete(path)
     end
     
     def build_product(xml, product)
