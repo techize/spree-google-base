@@ -27,7 +27,8 @@ module SpreeGoogleBase
         ['g:condition', 'google_base_condition'],
         ['google_product_category', 'google_base_product_type'],
         ['g:brand', 'google_base_brand'],
-        ['g:quantity','on_hand']
+        ['g:quantity','on_hand'],
+        ['g:availability','google_availabilty']
       ]
     end
   end
