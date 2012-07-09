@@ -1,4 +1,4 @@
-module SpreeGoogleBase
+vmodule SpreeGoogleBase
   class Engine < Rails::Engine
     engine_name 'spree_google_base'
 
@@ -28,7 +28,7 @@ module SpreeGoogleBase
         ['google_product_category', 'google_base_product_type'],
         ['g:brand', 'google_base_brand'],
         ['g:quantity','on_hand'],
-        ['g:availability','google_availabilty']
+        ['g:availability','google_availability']
       ]
     end
   end
