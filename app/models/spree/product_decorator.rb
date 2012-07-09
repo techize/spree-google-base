@@ -18,6 +18,10 @@ module Spree
       'GLW'
     end
 
+    def google_product_category
+      'Hardware &gt; Tools &gt; Wire &amp; Cable Tools &gt; Wire Crimpers'
+    end
+
     def google_base_image_link
       images.first.attachment.url(:product)
     end

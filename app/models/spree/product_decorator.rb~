@@ -14,6 +14,9 @@ module Spree
       'Hardware &gt; Tools'
     end
 
+    def google_base_brand
+      'GLW'
+    end
 
     def google_base_image_link
       images.first.attachment.url(:product)
