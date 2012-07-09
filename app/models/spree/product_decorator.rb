@@ -10,6 +10,14 @@ module Spree
       'new'
     end
 
+    def google_category
+      'Hardware &gt; Tools'
+    end
+
+    def google_base_brand
+      'GLW'
+    end
+
     def google_base_image_link
       images.first.attachment.url(:product)
     end
